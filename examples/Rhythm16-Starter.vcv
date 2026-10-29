@@ -1,0 +1,17 @@
+{
+  "version": "2.6.6",
+  "modules": [
+    {
+      "id": 1,
+      "plugin": "VideoFeedbackRhythm",
+      "model": "Rhythm16",
+      "version": "2.0.0",
+      "params": [],
+      "pos": [
+        0,
+        0
+      ]
+    }
+  ],
+  "cables": []
+}

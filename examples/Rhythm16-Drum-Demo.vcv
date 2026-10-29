@@ -1,0 +1,255 @@
+{
+  "version": "2.6.6",
+  "modules": [
+    {
+      "id": 1,
+      "plugin": "VideoFeedbackRhythm",
+      "model": "Rhythm16",
+      "version": "2.0.0",
+      "params": [],
+      "pos": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 2,
+      "plugin": "Befaco",
+      "model": "Kickall",
+      "version": "2.0.0",
+      "params": [
+        {
+          "id": 0,
+          "value": 52
+        },
+        {
+          "id": 2,
+          "value": 0.12
+        },
+        {
+          "id": 3,
+          "value": 0.07
+        },
+        {
+          "id": 4,
+          "value": 0.02
+        },
+        {
+          "id": 5,
+          "value": 0.2
+        }
+      ],
+      "pos": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": 3,
+      "plugin": "Fundamental",
+      "model": "Noise",
+      "version": "2.0.0",
+      "params": [],
+      "pos": [
+        6,
+        1
+      ]
+    },
+    {
+      "id": 4,
+      "plugin": "Befaco",
+      "model": "Percall",
+      "version": "2.0.0",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.5
+        },
+        {
+          "id": 1,
+          "value": 0.28
+        },
+        {
+          "id": 2,
+          "value": 0.22
+        },
+        {
+          "id": 3,
+          "value": 0.25
+        },
+        {
+          "id": 4,
+          "value": 0.2
+        },
+        {
+          "id": 5,
+          "value": 0.065
+        },
+        {
+          "id": 6,
+          "value": 0.24
+        },
+        {
+          "id": 7,
+          "value": 0.12
+        },
+        {
+          "id": 8,
+          "value": 0
+        },
+        {
+          "id": 9,
+          "value": 1
+        }
+      ],
+      "pos": [
+        16,
+        1
+      ]
+    },
+    {
+      "id": 5,
+      "plugin": "Fundamental",
+      "model": "Mixer",
+      "version": "2.0.0",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.25
+        }
+      ],
+      "pos": [
+        30,
+        1
+      ]
+    },
+    {
+      "id": 6,
+      "plugin": "Core",
+      "model": "AudioInterface2",
+      "version": "2.0.0",
+      "params": [],
+      "pos": [
+        36,
+        1
+      ]
+    },
+    {
+      "id": 7,
+      "plugin": "Fundamental",
+      "model": "Scope",
+      "version": "2.0.0",
+      "params": [],
+      "pos": [
+        44,
+        1
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 1,
+      "outputModuleId": 1,
+      "outputId": 0,
+      "inputModuleId": 2,
+      "inputId": 0,
+      "color": "#f18228"
+    },
+    {
+      "id": 2,
+      "outputModuleId": 1,
+      "outputId": 1,
+      "inputModuleId": 4,
+      "inputId": 5,
+      "color": "#e53b24"
+    },
+    {
+      "id": 3,
+      "outputModuleId": 1,
+      "outputId": 10,
+      "inputModuleId": 4,
+      "inputId": 8,
+      "color": "#dcca32"
+    },
+    {
+      "id": 4,
+      "outputModuleId": 1,
+      "outputId": 9,
+      "inputModuleId": 4,
+      "inputId": 7,
+      "color": "#eeeecc"
+    },
+    {
+      "id": 5,
+      "outputModuleId": 3,
+      "outputId": 0,
+      "inputModuleId": 4,
+      "inputId": 0,
+      "color": "#aaaaaa"
+    },
+    {
+      "id": 6,
+      "outputModuleId": 3,
+      "outputId": 3,
+      "inputModuleId": 4,
+      "inputId": 2,
+      "color": "#aaaaaa"
+    },
+    {
+      "id": 7,
+      "outputModuleId": 3,
+      "outputId": 3,
+      "inputModuleId": 4,
+      "inputId": 3,
+      "color": "#aaaaaa"
+    },
+    {
+      "id": 8,
+      "outputModuleId": 2,
+      "outputId": 0,
+      "inputModuleId": 5,
+      "inputId": 0,
+      "color": "#f18228"
+    },
+    {
+      "id": 9,
+      "outputModuleId": 4,
+      "outputId": 3,
+      "inputModuleId": 5,
+      "inputId": 1,
+      "color": "#f18228"
+    },
+    {
+      "id": 10,
+      "outputModuleId": 5,
+      "outputId": 0,
+      "inputModuleId": 6,
+      "inputId": 0,
+      "color": "#66bb99"
+    },
+    {
+      "id": 11,
+      "outputModuleId": 5,
+      "outputId": 0,
+      "inputModuleId": 6,
+      "inputId": 1,
+      "color": "#66bb99"
+    },
+    {
+      "id": 12,
+      "outputModuleId": 5,
+      "outputId": 0,
+      "inputModuleId": 7,
+      "inputId": 0,
+      "color": "#66bb99"
+    },
+    {
+      "id": 13,
+      "outputModuleId": 1,
+      "outputId": 0,
+      "inputModuleId": 7,
+      "inputId": 1,
+      "color": "#f18228"
+    }
+  ]
+}

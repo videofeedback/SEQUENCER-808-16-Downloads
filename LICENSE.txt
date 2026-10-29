@@ -1,0 +1,49 @@
+SEQUENCER 808-16 — Proprietary Freeware License
+Copyright (c) 2026 Video Feedback. All rights reserved.
+Contact: admin@comfycode.ai
+
+1. Free use
+You may download, install, copy for installation or backup, and use the
+official SEQUENCER 808-16 plugin free of charge, for personal or commercial
+music production. No purchase, subscription, or donation is required.
+You may edit your own patterns, presets, sample assignments, and Rack
+patches. This license claims no ownership of music or other output you
+create. Rights in third-party samples remain subject to their own terms.
+
+2. Closed-source proprietary software
+The project's original source code is private and is not included in the
+public distribution. Downloading or using the plugin does not grant access
+to its source code or permission to reuse, modify, incorporate, sublicense,
+or distribute that code, or to distribute modified plugin builds.
+Those activities require prior written permission from Video Feedback at
+admin@comfycode.ai, except as required by law or expressly permitted by
+applicable third-party licenses.
+
+3. Redistribution
+Redistribution or sale of the plugin, its original code, documentation,
+or supplied example collection requires prior written permission.
+Sharing links to the publisher's official downloads is permitted.
+Installation and backup copies allowed by section 1 are not redistribution.
+When sharing your own patches or presets, ensure you have permission to
+redistribute any embedded third-party samples or other included content.
+
+4. Third-party material
+This license applies only to original material owned by Video Feedback.
+It does not replace the licenses or notices for VCV Rack, other plugins,
+decoder libraries, recordings, or other third-party assets, nor revoke
+rights already granted by their respective owners. Factory recording
+provenance is in res/samples/SOURCES.md and its accompanying upstream
+notices. Decoder licenses are in vendor/LICENSE. Third-party modules
+used by the examples are installed separately.
+
+5. Warranty and liability
+To the extent permitted by applicable law, this software is provided
+"AS IS", without warranty of any kind, express or implied, including
+warranties of merchantability, fitness for a particular purpose, and
+noninfringement. To the extent permitted by applicable law, the copyright
+holder is not liable for claims, damages, or other liability arising
+from the software or its use.
+
+This is a proprietary freeware license, not the GPL or an open-source
+license. The plugin is distributed free of charge. It is not affiliated
+with or endorsed by Roland or VCV.

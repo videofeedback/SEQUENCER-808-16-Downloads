@@ -1,0 +1,19 @@
+Pad 1: hits=60, peak=0.585152
+Pad 2: hits=19, peak=0.216039
+Pad 3: hits=10, peak=0.253195
+Pad 4: hits=10, peak=0.242649
+Pad 5: hits=9, peak=0.28448
+Pad 6: hits=18, peak=0.244642
+Pad 7: hits=9, peak=0.142928
+Pad 8: hits=21, peak=0.291824
+Pad 9: hits=9, peak=0.147879
+Pad 10: hits=17, peak=0.0809127
+Pad 11: hits=71, peak=0.0464875
+Pad 12: hits=18, peak=0.258329
+Pad 13: hits=9, peak=0.179597
+Pad 14: hits=8, peak=0.246734
+Pad 15: hits=18, peak=0.103613
+Pad 16: hits=36, peak=0.0885248
+Mixer expected=0.64, observed=0.64
+PASS: all 16 individual mutes, all 16 global solos, mute+solo, cross-group multiple solos, persistence, and original mix gain.
+PASS: 142 synchronized steps; A2 B2 C2 I1 arrangement including loop matched every programmed hit; all 16 embedded sounds with external libraries unavailable; start/stop/restart/reset; peak=0.337499. Packaged stopped example.

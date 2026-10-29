@@ -1,0 +1,45 @@
+{
+  "version": "2.6.6",
+  "modules": [
+    {
+      "id": 1,
+      "plugin": "VideoFeedbackRhythm",
+      "model": "Rhythm16",
+      "version": "2.3.0",
+      "params": [],
+      "pos": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 2,
+      "plugin": "Core",
+      "model": "AudioInterface2",
+      "version": "2.6.6",
+      "params": [],
+      "pos": [
+        82,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 1,
+      "outputModuleId": 1,
+      "outputId": 14,
+      "inputModuleId": 2,
+      "inputId": 0,
+      "color": "#f18228"
+    },
+    {
+      "id": 2,
+      "outputModuleId": 1,
+      "outputId": 16,
+      "inputModuleId": 2,
+      "inputId": 1,
+      "color": "#f18228"
+    }
+  ]
+}

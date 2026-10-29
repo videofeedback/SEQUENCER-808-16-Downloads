@@ -1,0 +1,42 @@
+[
+  {
+    "name": "01 Sequencer - Basic Groove",
+    "processed": true,
+    "song": false,
+    "bpm": 110,
+    "package": "build/workflow-examples/01 Sequencer - Basic Groove",
+    "output": "examples/SEQUENCER-808-16/01 Sequencer - Basic Groove",
+    "modules": 11,
+    "cables": 49
+  },
+  {
+    "name": "02 Sequencer - Song and Fill",
+    "processed": true,
+    "song": true,
+    "bpm": 118,
+    "package": "build/workflow-examples/02 Sequencer - Song and Fill",
+    "output": "examples/SEQUENCER-808-16/02 Sequencer - Song and Fill",
+    "modules": 11,
+    "cables": 47
+  },
+  {
+    "name": "03 Modular - Basic Groove",
+    "processed": false,
+    "song": false,
+    "bpm": 110,
+    "package": "build/workflow-examples/03 Modular - Basic Groove",
+    "output": "examples/SEQUENCER-808-16/03 Modular - Basic Groove",
+    "modules": 69,
+    "cables": 150
+  },
+  {
+    "name": "04 Modular - Song and Fill",
+    "processed": false,
+    "song": true,
+    "bpm": 118,
+    "package": "build/workflow-examples/04 Modular - Song and Fill",
+    "output": "examples/SEQUENCER-808-16/04 Modular - Song and Fill",
+    "modules": 69,
+    "cables": 148
+  }
+]
